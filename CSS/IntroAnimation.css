@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Strike&display=swap');
+
+.animation-container {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: bolder;
+    font-style: italic;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#dev{
+    max-width: 60%;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.3s ease;
+    box-shadow: 2px 4px 8px 0px black;
+}
+
+
+#dev:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px 0px whitesmoke;
+}
+
+.portfolio{
+    display: flex;
+}
